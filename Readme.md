@@ -22,7 +22,6 @@ export OPENAI_API_KEY=your-api-key
 ```
 
 Organize your podcast audio files in the ./podcasts/ directory. Supported audio format: .m4a. It's recommend to have the podcasts with AAC HE-V2 Audio to stay below whisper's file size limit of 25mb.
-Usage
 
 The script will iterate through the podcast files in the ./podcasts/ directory, transcribe them, and generate a summarized transcript using the OpenAI GPT-3.5 Turbo model.
 Summarized transcripts will be saved in the ./results/ directory with the corresponding podcast number as the filename.
