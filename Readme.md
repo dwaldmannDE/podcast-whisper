@@ -9,11 +9,13 @@ This script automates the process of transcribing podcast episodes, generating s
 - Install required Python packages using the following command:
 
   ```bash
-  pip install openai
-Getting Started
+pip install openai
+
+## Getting Started
 
 Clone this repository:
 Set up your OpenAI API key as an environment variable:
+
   ```bash
   export OPENAI_API_KEY=your-api-key
 
