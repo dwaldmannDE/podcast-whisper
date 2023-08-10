@@ -8,16 +8,18 @@ This script automates the process of transcribing podcast episodes, generating s
 - An OpenAI API key
 - Install required Python packages using the following command:
 
-  ```bash
+```
 pip install openai
+```
 
 ## Getting Started
 
 Clone this repository:
 Set up your OpenAI API key as an environment variable:
 
-  ```bash
+```
 export OPENAI_API_KEY=your-api-key
+```
 
 Organize your podcast audio files in the ./podcasts/ directory. Supported audio format: .m4a. It's recommend to have the podcasts with AAC HE-V2 Audio to stay below whisper's file size limit of 25mb.
 Usage
