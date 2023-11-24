@@ -29,7 +29,7 @@ if __name__ == '__main__':
     openai.api_key = openai.api_key = os.getenv("OPENAI_API_KEY")
 
     # Get all m4a files from the podcasts folder
-    podcast_list = glob.glob("./podcasts/*.m4a")
+    podcast_list = glob.glob("./*.m4a")
     # Sort the podcast list
     podcast_list.sort()
 
